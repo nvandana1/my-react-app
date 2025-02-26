@@ -1,33 +1,36 @@
 import { useState } from 'react'
 import './project.css'
+import profileImage from './../assets/profile2.jpg';
+import portfolio from './../assets/portfolio.png';
+
 const projects: any[] = [
   {
     id: 1,
     name: 'Portfolio using AI',
     description:
       'A personal website built with React, TypeScript, and CSS. Using AI to generate style and html.',
-    image: '/src/assets/projects/portfolio.png',
+    image: portfolio,
   },
   {
     id: 2,
     name: 'Todo List',
     description:
       'A simple and intuitive todo list app built with React, Redux, and TypeScript.',
-      image: '/src/assets/profile2.jpg',
+      image: profileImage,
     },
   {
     id: 3,
     name: 'Weather App',
     description:
       'A weather app built with Next.js, OpenWeatherMap API, and Tailwind CSS. It displays the current weather and forecast for a given location.',
-      image: '/src/assets/profile2.jpg',
+      image: profileImage,
     },
     {
       id: 4,
       name: 'Weather App',
       description:
         'A weather app built with Next.js, OpenWeatherMap API, and Tailwind CSS. It displays the current weather and forecast for a given location.',
-        image: '/src/assets/profile2.jpg',
+        image: profileImage,
       },
 ]
 
