@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   return (
     <div className='main-contact-section'>
         <div className="contact-section">
-      <h2>Let's get connected !</h2>
+      <h2>Let's get connected</h2>
       <ul className="contact-info">
         {/* <li>
           <FaEnvelope /> <p>nvandana1@gmail.com</p>
