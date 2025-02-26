@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './navbar/navbar'
 import Home from './home/home'
-import About from './about/about'
 import Projects from './projects/projects'
 import Contact from './contact/contact'
 

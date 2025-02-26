@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaPhone, FaLinkedinIn ,FaBehance} from 'react-icons/fa';
+import {  FaLinkedinIn ,FaBehance} from 'react-icons/fa';
 import './contact.css';
 
 const Contact: React.FC = () => {

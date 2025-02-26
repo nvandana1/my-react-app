@@ -5,9 +5,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run react-build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
+    "react-build":"react-scripts build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
